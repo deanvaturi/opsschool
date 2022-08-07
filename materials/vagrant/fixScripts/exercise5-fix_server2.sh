@@ -1,2 +1,3 @@
 #!/bin/bash
-#add fix to exercise5-server2 here
+cp /vagrant/shared/server1.key.pub ~/.ssh/
+cat ~/.ssh/server1.key.pub >> ~/.ssh/authorized_keys
